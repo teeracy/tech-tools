@@ -1,0 +1,130 @@
+/* start CSS reset
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end CSS reset                                          */
+
+
+/* start of my code                                       */
+
+.screenshot {
+	max-width: 600px;
+	max-height: 600px;
+	display: block;
+	margin: 20px auto;
+}
+
+.logo {
+	max-width: 200px;
+	max-height: 200px;
+	display: block;
+	margin: 20px auto;
+}
+
+body {
+	color: #333333;
+	font-family: "Open Sans";
+}
+
+#container {
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+header {
+	text-align: center;
+	margin: 25px 0px;
+}
+
+h1 {
+	font-size: 60px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	font-family: Oswald;
+	margin-bottom: 30px
+}
+
+h2 {
+	font-size: 22px;
+}
+
+a {
+	color: inherit;
+}
+
+#content {
+	font-family: 'Open Sans';
+	display: block;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+h3{
+	border-top: 2px #6D6D6D solid;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	margin: 50px 0px;
+	font-family: Oswald;
+	text-transform: uppercase;
+	padding-top: 20px
+}
+
+p {
+	font-size: 16px;
+	padding-top: 10px;
+	max-width: 550px;
+	margin: auto;
+}
